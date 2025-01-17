@@ -14,7 +14,7 @@ const portfolioData = [
   {
     title: "Spinal Adjustments",
     category: "Spinal Adjustments",
-    image: "",
+    image: "/assets/img/portfolio/spinal-adjustment.jpg",
     content: [
       "Experience relief and improved alignment with our expert spinal adjustment services.",
       "Our chiropractors use precise techniques to correct misalignments, reduce pain, and restore function.",
@@ -24,7 +24,7 @@ const portfolioData = [
   {
     title: "Posture Correction",
     category: "Posture Correction",
-    image: "",
+    image: "/assets/img/portfolio/posture-correction.jpg",
     content: [
       "Achieve a confident and healthy posture with our posture correction treatments.",
       "Our personalized plans include targeted adjustments, exercises, and education to improve your alignment.",
@@ -34,7 +34,7 @@ const portfolioData = [
   {
     title: "Pain Management Therapy",
     category: "Pain Management",
-    image: "",
+    image: "/assets/img/portfolio/pain-management.jpg",
     content: [
       "Find relief from chronic pain with our comprehensive pain management services.",
       "We address the root causes of discomfort, providing lasting solutions tailored to your needs.",
@@ -44,7 +44,7 @@ const portfolioData = [
   {
     title: "Rehabilitation Therapy",
     category: "Rehabilitation Therapy",
-    image: "",
+    image: "/assets/img/portfolio/rehabilitation.jpg",
     content: [
       "Recover faster and stronger with our customized rehabilitation therapy services.",
       "We focus on restoring mobility, strength, and function after injuries or surgeries.",
@@ -54,7 +54,7 @@ const portfolioData = [
   {
     title: "Sports Injury Recovery",
     category: "Sports Injury Recovery",
-    image: "",
+    image: "/assets/img/portfolio/sports-injury.jpg",
     content: [
       "Get back in the game with our specialized sports injury recovery treatments.",
       "We combine chiropractic adjustments, therapy, and exercise plans to expedite healing.",
@@ -64,7 +64,7 @@ const portfolioData = [
   {
     title: "Wellness Maintenance",
     category: "Wellness Maintenance",
-    image: "",
+    image: "/assets/img/portfolio/wellness.jpg",
     content: [
       "Maintain your health and well-being with our ongoing wellness maintenance services.",
       "Regular chiropractic care helps prevent issues, improve mobility, and enhance your quality of life.",
@@ -75,12 +75,12 @@ const portfolioData = [
 
 const Portfolio = () => {
   const categories = [
-    "Classic Manicures",
-    "Gel Polish Applications",
-    "Nail Art & Designs",
-    "Acrylic Nail Enhancements",
-    "Luxury Pedicures",
-    "Bridal Nail Packages"
+    "Spinal Adjustments",
+    "Posture Correction",
+    "Pain Management",
+    "Rehabilitation Therapy",
+    "Sports Injury Recovery",
+    "Wellness Maintenance"
   ];
 
   const ModalVideo = dynamic(
