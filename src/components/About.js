@@ -103,7 +103,7 @@ const About = () => {
                         className="text-[#7d7789] transition-all duration-300 hover:text-[#333]"
                         href="#"
                       >
-                        EvergreenChiropractics@gmail.com
+                        EvergreenChiro@gmail.com
                       </a>
                     </span>
                   </li>
