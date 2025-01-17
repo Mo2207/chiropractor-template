@@ -12,67 +12,66 @@ import { Detail, Soundcloud } from "./Popup";
 // hard-coded data for portfolio section
 const portfolioData = [
   {
-    title: "Classic Manicure",
-    category: "Classic Manicures",
-    image: "/assets/img/portfolio/classic-manicure.jpg",
+    title: "Spinal Adjustments",
+    category: "Spinal Adjustments",
+    image: "",
     content: [
-      "Pamper your hands with our luxurious classic manicure services.",
-      "Our expert technicians shape, buff, and polish your nails to perfection, leaving your hands looking flawless.",
-      "Enjoy a relaxing experience that revitalizes your nails and cuticles for a polished and sophisticated finish."
+      "Experience relief and improved alignment with our expert spinal adjustment services.",
+      "Our chiropractors use precise techniques to correct misalignments, reduce pain, and restore function.",
+      "Feel the difference as we help you achieve better posture and overall spinal health."
     ],
   },
   {
-    title: "Gel Polish Perfection",
-    category: "Gel Polish Applications",
-    image: "/assets/img/portfolio/gel-polish.jpg",
+    title: "Posture Correction",
+    category: "Posture Correction",
+    image: "",
     content: [
-      "Discover long-lasting shine with our premium gel polish application.",
-      "Choose from a wide range of colors and finishes to match your style and occasion.",
-      "Our skilled team ensures a flawless application that resists chipping and lasts for weeks."
+      "Achieve a confident and healthy posture with our posture correction treatments.",
+      "Our personalized plans include targeted adjustments, exercises, and education to improve your alignment.",
+      "Let us help you reduce strain, prevent future issues, and feel your best every day."
     ],
   },
   {
-    title: "Creative Nail Art",
-    category: "Nail Art & Designs",
-    image: "/assets/img/portfolio/nail-art.jpg",
+    title: "Pain Management Therapy",
+    category: "Pain Management",
+    image: "",
     content: [
-      "Unleash your creativity with our custom nail art and designs.",
-      "From minimalist patterns to intricate details, our talented artists bring your vision to life.",
-      "Let your nails become a canvas for unique and personalized expressions of style."
+      "Find relief from chronic pain with our comprehensive pain management services.",
+      "We address the root causes of discomfort, providing lasting solutions tailored to your needs.",
+      "Reclaim your comfort and mobility with our expert care and targeted treatments."
     ],
   },
   {
-    title: "Acrylic Nail Enhancements",
-    category: "Acrylic Nail Enhancements",
-    image: "/assets/img/portfolio/acrylic-nails.jpg",
+    title: "Rehabilitation Therapy",
+    category: "Rehabilitation Therapy",
+    image: "",
     content: [
-      "Enhance the beauty of your hands with our durable acrylic nail services.",
-      "Perfect for adding length, strength, and style, our acrylic nails are tailored to your preferences.",
-      "Enjoy a flawless finish that complements your look, whether it's bold or natural."
+      "Recover faster and stronger with our customized rehabilitation therapy services.",
+      "We focus on restoring mobility, strength, and function after injuries or surgeries.",
+      "Trust our team to guide you every step of the way toward a full recovery."
     ],
   },
   {
-    title: "Luxury Pedicure",
-    category: "Luxury Pedicures",
-    image: "/assets/img/portfolio/pedicure.jpg",
+    title: "Sports Injury Recovery",
+    category: "Sports Injury Recovery",
+    image: "",
     content: [
-      "Treat your feet to the ultimate relaxation with our luxury pedicure services.",
-      "Our treatments include exfoliation, massage, and polish, leaving your feet soft and rejuvenated.",
-      "Step out in style with perfectly groomed nails and a refreshing spa experience."
+      "Get back in the game with our specialized sports injury recovery treatments.",
+      "We combine chiropractic adjustments, therapy, and exercise plans to expedite healing.",
+      "Maximize your performance and minimize downtime with our personalized care."
     ],
   },
   {
-    title: "Bridal Nail Perfection",
-    category: "Bridal Nail Packages",
-    image: "/assets/img/portfolio/bridal-nails.jpg",
+    title: "Wellness Maintenance",
+    category: "Wellness Maintenance",
+    image: "",
     content: [
-      "Make your big day even more special with our bridal nail packages.",
-      "Our expert technicians work with you to create the perfect look, from classic elegance to show-stopping designs.",
-      "Ensure your hands and feet are photo-ready for every moment of your wedding celebration."
+      "Maintain your health and well-being with our ongoing wellness maintenance services.",
+      "Regular chiropractic care helps prevent issues, improve mobility, and enhance your quality of life.",
+      "Stay proactive about your health and enjoy the benefits of a balanced body."
     ],
   },
 ];
-
 
 const Portfolio = () => {
   const categories = [
