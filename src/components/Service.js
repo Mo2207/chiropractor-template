@@ -14,82 +14,82 @@ const Service = () => {
 
   const services = [
     {
-      img: "/assets/img/service/manicure-service.jpg",
-      icon: "/assets/img/service/manicure.svg",
-      text: "Pamper your hands with our luxurious classic manicure services.",
+      img: "/assets/img/service/spine-adjustment.jpg",
+      icon: "/assets/img/service/spine.svg",
+      text: "Realign and revitalize your spine with our expert adjustments.",
       date: "Updated: January 3, 2025",
-      title: "Classic Manicures",
+      title: "Spinal Adjustments",
       text1:
-        "At Artisan Nails, we specialize in classic manicures that leave your hands looking and feeling their best. Our skilled technicians focus on shaping, buffing, and polishing your nails to perfection.",
+        "Experience relief from pain and improved mobility with our spinal adjustment services. Our chiropractors use precise techniques to restore alignment and function.",
       text2:
-        "A classic manicure is the foundation of elegant hands. Enjoy a relaxing experience that revitalizes your nails and cuticles.",
+        "Spinal adjustments can reduce discomfort, improve posture, and enhance your overall well-being.",
       text3:
-        "Whether it’s for a special occasion or everyday beauty, our manicures ensure your nails are always on point.",
+        "Whether you’re dealing with chronic pain or simply want to maintain optimal health, our adjustments are tailored to your needs.",
     },
     {
-      img: "/assets/img/service/gel-polish-service.jpg",
-      icon: "/assets/img/service/nail-polish.svg",
-      text: "Achieve long-lasting shine with our expert gel polish applications.",
+      img: "/assets/img/service/posture.jpg",
+      icon: "/assets/img/service/posture-corrector.svg",
+      text: "Improve your alignment and confidence with posture correction therapy.",
       date: "Updated: January 3, 2025",
-      title: "Gel Polish Applications",
+      title: "Posture Correction",
       text1:
-        "Our gel polish services are perfect for those who want vibrant, long-lasting nails. Choose from a wide range of colors and finishes to match your personal style.",
+        "Our posture correction treatments are designed to help you stand taller and feel better. We address alignment issues through targeted adjustments and exercises.",
       text2:
-        "Our expert technicians ensure a flawless application that resists chipping and keeps your nails looking stunning for weeks.",
+        "Good posture reduces strain on your body, preventing long-term discomfort and improving your overall health.",
       text3:
-        "Whether you prefer bold colors or neutral tones, we’ve got the perfect gel polish for you.",
+        "Let us help you achieve a confident, balanced posture that supports your daily activities.",
     },
     {
-      img: "/assets/img/service/nail-art-service.jpg",
-      icon: "/assets/img/service/nail-art.svg",
-      text: "Express yourself with custom nail art and designs.",
+      img: "/assets/img/service/pain-management.jpg",
+      icon: "/assets/img/service/body-massage.svg",
+      text: "Alleviate chronic pain with our comprehensive pain management services.",
       date: "Updated: January 3, 2025",
-      title: "Nail Art & Designs",
+      title: "Pain Management Therapy",
       text1:
-        "Unleash your creativity with our personalized nail art services. From simple patterns to intricate designs, we bring your vision to life.",
+        "Our pain management solutions target the root cause of your discomfort, providing lasting relief and improved quality of life.",
       text2:
-        "Our skilled nail artists use precision techniques to ensure every detail is perfect, creating nails that are truly one of a kind.",
+        "Through a combination of chiropractic adjustments, therapeutic exercises, and lifestyle guidance, we address a wide range of conditions.",
       text3:
-        "Let your nails be a reflection of your unique personality and style.",
+        "Regain your comfort and mobility with personalized care from our expert team.",
     },
     {
-      img: "/assets/img/service/acrylic-nails-service.jpg",
-      icon: "/assets/img/service/acrylic.svg",
-      text: "Enhance your nails with durable acrylic solutions.",
+      img: "/assets/img/service/rehabilitation.jpg",
+      icon: "/assets/img/service/rehabilitation.svg",
+      text: "Recover strength and function with our tailored rehabilitation therapies.",
       date: "Updated: January 3, 2025",
-      title: "Acrylic Nail Enhancements",
+      title: "Rehabilitation Therapy",
       text1:
-        "Our acrylic nail services are designed to add strength, length, and beauty to your natural nails. Perfect for creating bold, long-lasting styles.",
+        "Whether recovering from an injury or surgery, our rehabilitation therapy helps restore strength and mobility.",
       text2:
-        "We tailor each application to your preferences, ensuring your nails look natural and feel comfortable.",
+        "We create personalized recovery plans to help you get back to your daily activities quickly and safely.",
       text3:
-        "Enjoy the perfect blend of durability and elegance with our acrylic enhancements.",
+        "Trust our experienced team to guide your recovery journey with care and precision.",
     },
     {
-      img: "/assets/img/service/pedicure-service.jpg",
-      icon: "/assets/img/service/foot.svg",
-      text: "Relax and rejuvenate with our luxurious pedicure treatments.",
+      img: "/assets/img/service/sports-injury.jpg",
+      icon: "/assets/img/service/shoes.svg",
+      text: "Get back in the game with our sports injury recovery treatments.",
       date: "Updated: January 3, 2025",
-      title: "Luxury Pedicures",
+      title: "Sports Injury Recovery",
       text1:
-        "Indulge in a spa-quality pedicure experience that soothes tired feet and leaves your nails perfectly groomed.",
+        "Our specialized sports injury recovery services combine chiropractic care and therapeutic exercises to expedite your healing process.",
       text2:
-        "Our pedicure treatments include exfoliation, massage, and polish for a complete rejuvenation.",
+        "We address sports-related strains, sprains, and other injuries to help you regain your strength and performance.",
       text3:
-        "Whether it’s for self-care or a special occasion, our pedicures will have you stepping out in style.",
+        "Maximize your recovery and return to the activities you love with confidence.",
     },
     {
-      img: "/assets/img/service/bridal-nail-service.jpg",
-      icon: "/assets/img/service/diamond-ring.svg",
-      text: "Prepare for your big day with our bridal nail packages.",
+      img: "/assets/img/service/wellness.jpg",
+      icon: "/assets/img/service/heart.svg",
+      text: "Stay proactive with our wellness maintenance services.",
       date: "Updated: January 3, 2025",
-      title: "Bridal Nail Packages",
+      title: "Wellness Maintenance",
       text1:
-        "Make your wedding day even more special with nails that are perfectly tailored to your style. From timeless elegance to show-stopping designs, we’ve got you covered.",
+        "Our wellness maintenance programs focus on preventing issues and optimizing your health.",
       text2:
-        "Our bridal packages include consultations to ensure your nails are exactly as you envision for your big day.",
+        "Regular chiropractic care helps you stay active, pain-free, and ready to take on life’s challenges.",
       text3:
-        "Let our team help you shine from head to fingertips on your wedding day.",
+        "Maintain balance and well-being with our proactive, holistic approach to health care.",
     },
   ];   
 
