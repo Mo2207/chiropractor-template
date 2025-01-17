@@ -11,13 +11,13 @@ const About = () => {
   ];
 
   const progressBarData = [
-    { bgcolor: "#662D91", completed: 95, title: "Classic Manicures" },
-    { bgcolor: "#662D91", completed: 90, title: "Gel Polish Applications" },
-    { bgcolor: "#662D91", completed: 85, title: "Nail Art & Design" },
-    { bgcolor: "#662D91", completed: 95, title: "Luxury Pedicures" },
-    { bgcolor: "#662D91", completed: 80, title: "Acrylic Nail Enhancements" },
-    { bgcolor: "#662D91", completed: 85, title: "Cuticle Treatments" },
-  ];
+    { bgcolor: "#4CAF50", completed: 95, title: "Spinal Adjustments" },
+    { bgcolor: "#4CAF50", completed: 90, title: "Posture Correction" },
+    { bgcolor: "#4CAF50", completed: 85, title: "Pain Management" },
+    { bgcolor: "#4CAF50", completed: 95, title: "Rehabilitation Therapy" },
+    { bgcolor: "#4CAF50", completed: 80, title: "Sports Injury Recovery" },
+    { bgcolor: "#4CAF50", completed: 85, title: "Wellness Maintenance" },
+  ];  
 
   const services = [
     {
@@ -53,14 +53,13 @@ const About = () => {
             <div className="wrapper w-full h-auto clear-both float-left flex justify-between mt-[55px]">
               <div className="left w-[40%]">
                 <p className="mb-[15px]">
-                  Welcome to <strong>Artisan Nails</strong>, your haven for nail artistry and self-care. 
-                  Our team of skilled nail technicians is dedicated to crafting stunning, personalized designs 
-                  that showcase your style and enhance your natural beauty.
+                  Welcome to <strong>Harmony Chiropractic</strong>, your destination for expert spinal care and total body wellness. 
+                  Our team of experienced chiropractors is dedicated to helping you achieve balance, alleviate pain, and improve your overall   quality of life.
                 </p>
                 <p>
-                  At Artisan Nails, we offer a wide array of services, from classic manicures to intricate nail art, 
-                  all tailored to suit your preferences. Our mission is to create a relaxing, rejuvenating environment 
-                  while delivering flawless nails that leave you feeling confident and pampered.
+                  At Harmony Chiropractic, we offer a comprehensive range of services, from spinal adjustments to posture correction, 
+                  all tailored to meet your unique needs. Our mission is to provide a welcoming, rejuvenating environment while guiding you 
+                  toward optimal health and lasting relief.
                 </p>
               </div>
               <div className="right w-[50%]">
@@ -104,7 +103,7 @@ const About = () => {
                         className="text-[#7d7789] transition-all duration-300 hover:text-[#333]"
                         href="#"
                       >
-                        ArtisanNails@gmail.com
+                        EvergreenChiropractics@gmail.com
                       </a>
                     </span>
                   </li>
@@ -129,29 +128,29 @@ const About = () => {
                   </span>
                 </div>
                 <div className="list w-full h-auto clear-both float-left mt-[55px]">
-                  <ul>
-                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Classic Manicures
-                    </li>
-                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Gel Polish Applications  
-                    </li>
-                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Nail Art & Designs
-                    </li>
-                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Luxury Pedicures  
-                    </li>
-                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Acrylic Nail Enhancements
-                    </li>
-                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Bridal Nail Packages
-                    </li>
-                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Cuticle Treatments 
-                    </li>
-                  </ul>
+                <ul>
+                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                    Spinal Adjustments
+                  </li>
+                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                    Posture Correction
+                  </li>
+                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                    Pain Management
+                  </li>
+                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                    Rehabilitation Therapy
+                  </li>
+                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                    Sports Injury Recovery
+                  </li>
+                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                    Wellness Maintenance
+                  </li>
+                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                    Sciatica and Nerve Relief
+                  </li>
+                </ul>
                 </div>
               </div>
               <div className="service_list w-[50%]">
@@ -161,29 +160,29 @@ const About = () => {
                   </span>
                 </div>
                 <div className="list w-full h-auto clear-both float-left mt-[55px]">
-                  <ul>
-                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Nail Care Innovations
-                    </li>
-                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Sustainable Nail Artistry
-                    </li>
-                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Client-Centered Nail Experiences
-                    </li>
-                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Precision & Elegance
-                    </li>
-                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Relaxation & Pampering
-                    </li>
-                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Transformative Nail Art
-                    </li>
-                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Creative Nail Designs
-                    </li>
-                  </ul>
+                <ul>
+                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                    Spinal Health Innovations
+                  </li>
+                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                    Holistic Pain Relief
+                  </li>
+                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                    Client-Centered Care
+                  </li>
+                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                    Precision & Alignment
+                  </li>
+                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                    Relaxation & Rehabilitation
+                  </li>
+                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                    Transformative Posture Correction
+                  </li>
+                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                    Innovative Wellness Solutions
+                  </li>
+                </ul>
                 </div>
               </div>
             </div>
