@@ -8,10 +8,10 @@ const TypingAnimation = () => {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "Nail Perfection",
-        "Artistry at Your Fingertips",
-        "Flawless Nails, Every Time",
-        "Where Beauty Meets Precision"
+        "Spinal Perfection",
+        "Alignment at Your Best",
+        "Flawless Posture, Every Time",
+        "Where Health Meets Precision"
       ], // Strings to display
       typeSpeed: 100,
       backSpeed: 60,

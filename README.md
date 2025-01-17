@@ -1,2 +1,2 @@
 
-An example website from od-teams template for a manicurist.
+An example website from od-teams template for a chiropractor.
