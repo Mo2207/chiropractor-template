@@ -6,52 +6,50 @@ import SectionContainer from "../layout/SectionContainer";
 
 const newsData = [
   {
-    title: "Introducing Luxury Pedicure Services",
+    title: "Introducing Wellness Maintenance Services",
     date: "March 17, 2025",
     tag: "Services",
     image: "",
     content: [
-      "Relax and rejuvenate with our new luxury pedicure services at Artisan Nails.",
-      "Enjoy a spa-quality experience featuring exfoliation, massage, and expert nail care, leaving your feet soft and refreshed.",
-      "Visit us to learn more about this pampering service and schedule your appointment today.",
+      "We’re excited to announce our new wellness maintenance services designed to keep your body balanced and healthy.",
+      "Regular chiropractic care can help you stay active, pain-free, and achieve optimal well-being.",
+      "Visit us to learn more about these proactive health services and schedule your appointment today.",
     ],
   },
   {
-    title: "Nail Art & Design Special Offer",
+    title: "Exclusive Posture Correction Offer",
     date: "March 3, 2025",
     tag: "Promotions",
     image: "",
     content: [
-      "Unleash your creativity with our limited-time offer on nail art and design services.",
-      "Our skilled nail artists create stunning, custom designs to reflect your unique style and personality.",
-      "Don’t miss this chance to elevate your nails – book your appointment today!",
+      "Improve your posture and boost your confidence with our limited-time offer on posture correction services.",
+      "Our expert chiropractors use targeted techniques and exercises to help you stand tall and feel your best.",
+      "Don’t miss this chance to prioritize your spinal health – book your consultation today!",
     ],
   },
   {
-    title: "Exclusive Bridal Nail Packages",
-    date: "February 26th, 2025",
+    title: "Specialized Sports Injury Recovery Packages",
+    date: "February 26, 2025",
     tag: "Promotions",
     image: "",
     content: [
-      "Make your big day even more special with our exclusive bridal nail packages at Artisan Nails.",
-      "From timeless French manicures to custom nail art that matches your wedding theme, we ensure your nails are picture-perfect for the occasion.",
-      "Contact us today to schedule your consultation and let us help you shine on your special day.",
+      "Recover faster and stronger with our specialized sports injury recovery packages.",
+      "Our personalized plans include chiropractic adjustments, rehabilitation exercises, and pain management strategies.",
+      "Contact us to schedule your consultation and get back to the activities you love with confidence.",
     ],
   },
   {
-    title: "Grand Opening of Artisan Nails",
+    title: "Grand Opening of Harmony Chiropractic",
     date: "February 20, 2025",
     tag: "Events",
     image: "",
     content: [
-      "We are thrilled to announce the grand opening of Artisan Nails! Celebrate this exciting milestone with us and enjoy exclusive promotions and giveaways.",
-      "Experience premium nail care services, from classic manicures to intricate nail art, all tailored to your style.",
-      "Book your appointment today and join the Artisan Nails family for a luxurious self-care journey!",
+      "We are thrilled to announce the grand opening of Harmony Chiropractic! Celebrate with us and enjoy exclusive promotions and giveaways.",
+      "Experience expert chiropractic care, from spinal adjustments to wellness maintenance, tailored to your unique needs.",
+      "Book your appointment today and join the Harmony Chiropractic family for a healthier, happier you!",
     ],
   },
 ];
-
-
 
 const News = () => {
 
