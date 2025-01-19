@@ -243,7 +243,7 @@ const About = () => {
               </div> */}
             </div>
           </div>
-          {/* <div className="resume w-full h-auto clear-both float-left mb-[75px]">
+          <div className="resume w-full h-auto clear-both float-left mb-[75px]">
             <div className="wrapper w-full h-auto clear-both float-left flex justify-between">
               <div className="education w-[40%]">
                 <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
@@ -258,14 +258,16 @@ const About = () => {
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2024
+                              2013
                             </span>
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Beauty Academy "World of Beauty"
+                              Palmer College of Chiropractic
                             </h3>
-                            <span className="text-[14px]">Certificate</span>
+                            <span className="text-[14px]">
+                              Doctor of Chiropractic
+                            </span>
                           </div>
                         </div>
                       </li>
@@ -273,14 +275,16 @@ const About = () => {
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2022
+                              2011
                             </span>
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Beauty Academy
+                              University of Health Sciences
                             </h3>
-                            <span className="text-[14px]">Certificate</span>
+                            <span className="text-[14px]">
+                              Bachelor of Science in Kinesiology
+                            </span>
                           </div>
                         </div>
                       </li>
@@ -288,15 +292,15 @@ const About = () => {
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2016
+                              2009
                             </span>
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Vivienne Lash Art University
+                              National Massage Therapy Institute
                             </h3>
                             <span className="text-[14px]">
-                              Certificate
+                              Certification in Therapeutic Massage
                             </span>
                           </div>
                         </div>
@@ -318,15 +322,15 @@ const About = () => {
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2018 - running
+                              2020 - present
                             </span>
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Envato Elements
+                              Evergreen Chiropractic Center
                             </h3>
                             <span className="text-[14px]">
-                              Exclusive Author
+                              Licensed Chiropractor
                             </span>
                           </div>
                         </div>
@@ -335,14 +339,16 @@ const About = () => {
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2015 - 2018
+                              2015 - 2017
                             </span>
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Avo Corporation
+                              Spine Health Clinic
                             </h3>
-                            <span className="text-[14px]">Content Manager</span>
+                            <span className="text-[14px]">
+                              Associate Chiropractor
+                            </span>
                           </div>
                         </div>
                       </li>
@@ -350,14 +356,16 @@ const About = () => {
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2012 - 2015
+                              2014 - 2015
                             </span>
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              FC Barcelona
+                              Wellness and Recovery Center
                             </h3>
-                            <span className="text-[14px]">Football Player</span>
+                            <span className="text-[14px]">
+                              Chiropractic Intern
+                            </span>
                           </div>
                         </div>
                       </li>
@@ -366,7 +374,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
           {/* <div className="partners w-full h-auto clear-both float-left mb-[92px]">
             <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
               <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
