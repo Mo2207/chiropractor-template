@@ -7,8 +7,8 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-exports.id = "src_components_Portfolio_js";
-exports.ids = ["src_components_Portfolio_js"];
+exports.id = "src_components_Portfolio_js-_58320";
+exports.ids = ["src_components_Portfolio_js-_58320"];
 exports.modules = {
 
 /***/ "./src/components/ImagePopup.js":
