@@ -9,7 +9,7 @@ const CavaniHead = () => {
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>Artisan Nails | Home</title>
+      <title>Evergreen Chiropractic Center | Home</title>
     </Head>
   );
 };
