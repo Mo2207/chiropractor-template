@@ -8,10 +8,10 @@ const TypingAnimation = () => {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "Spinal Perfection",
-        "Alignment at Your Best",
-        "Flawless Posture, Every Time",
-        "Where Health Meets Precision"
+        "a modern escape for your mind, body, and spirit.",
+        "a sanctuary of tranquility and rejuvenation.",
+        "a haven of relaxation, renewal, and balance.",
+        "the ultimate retreat for your well-being and serenity."
       ], // Strings to display
       typeSpeed: 100,
       backSpeed: 60,
@@ -31,9 +31,12 @@ const TypingAnimation = () => {
       <span className="cd-headline clip">
         {" "}
         {/* ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  */}
-        <span className="blc relative">Welcome to</span>{" "}
-        <span className="cd-words-wrapper">
-          <b className="is-visible" ref={el}></b>
+        <span className="blc relative font-medium">Welcome to</span>{" "}
+        <span className="cd-words-wrapper font-light">
+          <b className="is-visible" style=
+        {{
+          color: "#a37764"
+        }} ref={el}></b>
         </span>
       </span>
     </h3>

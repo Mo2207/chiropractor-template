@@ -704,11 +704,11 @@ h6 {
 
 .cavani_tm_home .job span {
   --tw-text-opacity: 1;
-  color: rgb(102 45 145 / var(--tw-text-opacity));
+  color: rgb(110 75 59 / var(--tw-text-opacity));
 }
 
 .cavani_tm_home .job b {
-  font-weight: 600;
+  font-weight: 500;
   --tw-text-opacity: 1;
   color: rgb(51 51 51 / var(--tw-text-opacity));
 }
