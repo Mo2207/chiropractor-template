@@ -11,13 +11,13 @@ const About = () => {
   ];
 
   const progressBarData = [
-    { bgcolor: "#4CAF50", completed: 95, title: "Spinal Adjustments" },
-    { bgcolor: "#4CAF50", completed: 90, title: "Posture Correction" },
-    { bgcolor: "#4CAF50", completed: 85, title: "Pain Management" },
-    { bgcolor: "#4CAF50", completed: 95, title: "Rehabilitation Therapy" },
-    { bgcolor: "#4CAF50", completed: 80, title: "Sports Injury Recovery" },
-    { bgcolor: "#4CAF50", completed: 85, title: "Wellness Maintenance" },
-  ];  
+    { bgcolor: "#8E44AD", completed: 95, title: "Relaxation Massages" },
+    { bgcolor: "#8E44AD", completed: 90, title: "Hydrating Facials" },
+    { bgcolor: "#8E44AD", completed: 85, title: "Body Scrubs & Wraps" },
+    { bgcolor: "#8E44AD", completed: 95, title: "Aromatherapy Sessions" },
+    { bgcolor: "#8E44AD", completed: 80, title: "Hot Stone Therapy" },
+    { bgcolor: "#8E44AD", completed: 85, title: "Stress Relief Treatments" },
+  ];
 
   const services = [
     {
@@ -53,13 +53,12 @@ const About = () => {
             <div className="wrapper w-full h-auto clear-both float-left flex justify-between mt-[55px]">
               <div className="left w-[40%]">
                 <p className="mb-[15px]">
-                  Welcome to <strong>Harmony Chiropractic</strong>, your destination for expert spinal care and total body wellness. 
-                  Our team of experienced chiropractors is dedicated to helping you achieve balance, alleviate pain, and improve your overall   quality of life.
+                  Welcome to <strong>Lumina Retreat Spa</strong>, your sanctuary for relaxation, rejuvenation, and holistic wellness. 
+                  Our dedicated team of professionals is committed to providing an escape from the everyday, helping you recharge your body, mind, and spirit.
                 </p>
                 <p>
-                  At Harmony Chiropractic, we offer a comprehensive range of services, from spinal adjustments to posture correction, 
-                  all tailored to meet your unique needs. Our mission is to provide a welcoming, rejuvenating environment while guiding you 
-                  toward optimal health and lasting relief.
+                  At Lumina Retreat Spa, we offer an extensive range of services, from soothing massages and revitalizing facials to luxurious body treatments, 
+                  all tailored to your individual needs. Our mission is to create a serene, welcoming environment where you can find peace, balance, and lasting renewal.
                 </p>
               </div>
               <div className="right w-[50%]">
@@ -103,7 +102,7 @@ const About = () => {
                         className="text-[#7d7789] transition-all duration-300 hover:text-[#333]"
                         href="#"
                       >
-                        EvergreenChiro@gmail.com
+                        LuminaSpa@gmail.com
                       </a>
                     </span>
                   </li>
@@ -128,29 +127,29 @@ const About = () => {
                   </span>
                 </div>
                 <div className="list w-full h-auto clear-both float-left mt-[55px]">
-                <ul>
-                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Spinal Adjustments
-                  </li>
-                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Posture Correction
-                  </li>
-                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Pain Management
-                  </li>
-                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Rehabilitation Therapy
-                  </li>
-                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Sports Injury Recovery
-                  </li>
-                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Wellness Maintenance
-                  </li>
-                  <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Sciatica and Nerve Relief
-                  </li>
-                </ul>
+                  <ul>
+                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                      Relaxation Massages
+                    </li>
+                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                      Hydrating Facials
+                    </li>
+                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                      Body Scrubs & Wraps
+                    </li>
+                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                      Aromatherapy Sessions
+                    </li>
+                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                      Hot Stone Therapy
+                    </li>
+                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                      Stress Relief Treatments
+                    </li>
+                    <li className="mb-[8px] w-full float-left relative pl-[25px]">
+                      Detox and Rejuvenation
+                    </li>
+                  </ul>
                 </div>
               </div>
               <div className="service_list w-[50%]">
@@ -162,25 +161,25 @@ const About = () => {
                 <div className="list w-full h-auto clear-both float-left mt-[55px]">
                 <ul>
                   <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Spinal Health Innovations
+                    Luxury Spa Experiences
                   </li>
                   <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Holistic Pain Relief
+                    Holistic Skin Care
                   </li>
                   <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Client-Centered Care
+                    Personalized Wellness Journeys
                   </li>
                   <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Precision & Alignment
+                    Precision & Relaxation
                   </li>
                   <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Relaxation & Rehabilitation
+                    Rejuvenation & Renewal
                   </li>
                   <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Transformative Posture Correction
+                    Transformative Spa Therapies
                   </li>
                   <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Innovative Wellness Solutions
+                    Innovative Beauty Solutions
                   </li>
                 </ul>
                 </div>
@@ -263,10 +262,10 @@ const About = () => {
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Palmer College of Chiropractic
+                              National Spa Academy
                             </h3>
                             <span className="text-[14px]">
-                              Doctor of Chiropractic
+                              Advanced Certification in Spa Management
                             </span>
                           </div>
                         </div>
@@ -280,10 +279,10 @@ const About = () => {
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              University of Health Sciences
+                              Wellness Institute of America
                             </h3>
                             <span className="text-[14px]">
-                              Bachelor of Science in Kinesiology
+                              Diploma in Holistic Therapy
                             </span>
                           </div>
                         </div>
@@ -297,7 +296,7 @@ const About = () => {
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              National Massage Therapy Institute
+                              International Massage Academy
                             </h3>
                             <span className="text-[14px]">
                               Certification in Therapeutic Massage
@@ -327,10 +326,10 @@ const About = () => {
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Evergreen Chiropractic Center
+                              Lumina Retreat Spa
                             </h3>
                             <span className="text-[14px]">
-                              Licensed Chiropractor
+                              Licensed Spa Therapist
                             </span>
                           </div>
                         </div>
@@ -344,10 +343,10 @@ const About = () => {
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Spine Health Clinic
+                              Serenity Spa & Wellness
                             </h3>
                             <span className="text-[14px]">
-                              Associate Chiropractor
+                              Spa Therapist
                             </span>
                           </div>
                         </div>
@@ -361,10 +360,10 @@ const About = () => {
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Wellness and Recovery Center
+                              Harmony Spa
                             </h3>
                             <span className="text-[14px]">
-                              Chiropractic Intern
+                              Spa Intern
                             </span>
                           </div>
                         </div>
