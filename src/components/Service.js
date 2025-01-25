@@ -18,79 +18,79 @@ const Service = () => {
       icon: "/assets/img/service/spine.svg",
       text: "Realign and revitalize your spine with our expert adjustments.",
       date: "Updated: January 3, 2025",
-      title: "Spinal Adjustments",
+      title: "Hot Stone Massage",
       text1:
-        "Experience relief from pain and improved mobility with our spinal adjustment services. Our chiropractors use precise techniques to restore alignment and function.",
+        "A soothing therapy where heated stones are placed on key points of the body, combined with massage techniques to relieve tension, improve circulation, and promote deep relaxation.",
       text2:
-        "Spinal adjustments can reduce discomfort, improve posture, and enhance your overall well-being.",
+        "Experience the gentle power of heated stones as they work in harmony with expert massage techniques to ease tension and improve overall well-being.",
       text3:
-        "Whether you’re dealing with chronic pain or simply want to maintain optimal health, our adjustments are tailored to your needs.",
+        "Let the warmth of the stones and skilled hands rejuvenate your body, improve circulation, and promote a sense of calm and relaxation."
     },
     {
       img: "/assets/img/service/posture.jpg",
       icon: "/assets/img/service/posture-corrector.svg",
       text: "Improve your alignment and confidence with posture correction therapy.",
       date: "Updated: January 3, 2025",
-      title: "Posture Correction",
+      title: "Body Scrubs",
       text1:
-        "Our posture correction treatments are designed to help you stand taller and feel better. We address alignment issues through targeted adjustments and exercises.",
+        "Revitalize your skin with our rejuvenating body scrubs, designed to exfoliate, hydrate, and leave your skin feeling soft and smooth.",
       text2:
-        "Good posture reduces strain on your body, preventing long-term discomfort and improving your overall health.",
+        "Our body scrubs gently remove dead skin cells, promoting healthy circulation and a radiant glow from head to toe.",
       text3:
-        "Let us help you achieve a confident, balanced posture that supports your daily activities.",
+        "Experience the ultimate skin renewal as our expertly crafted scrubs cleanse, nourish, and rejuvenate your body, leaving you refreshed and revitalized."
     },
     {
       img: "/assets/img/service/pain-management.jpg",
       icon: "/assets/img/service/body-massage.svg",
       text: "Alleviate chronic pain with our comprehensive pain management services.",
       date: "Updated: January 3, 2025",
-      title: "Pain Management Therapy",
+      title: "Oxygen Therapy",
       text1:
-        "Our pain management solutions target the root cause of your discomfort, providing lasting relief and improved quality of life.",
+        "Immerse yourself in the rejuvenating effects of oxygen therapy, designed to enhance your body's natural healing processes and promote overall wellness.",
       text2:
-        "Through a combination of chiropractic adjustments, therapeutic exercises, and lifestyle guidance, we address a wide range of conditions.",
+        "By delivering concentrated oxygen, this therapy helps improve circulation, boost energy levels, and support cellular regeneration for optimal health.",
       text3:
-        "Regain your comfort and mobility with personalized care from our expert team.",
+      "Experience the revitalizing benefits of oxygen therapy as it helps to reduce stress, enhance mental clarity, and restore your body's balance."
     },
     {
       img: "/assets/img/service/rehabilitation.jpg",
       icon: "/assets/img/service/rehabilitation.svg",
       text: "Recover strength and function with our tailored rehabilitation therapies.",
       date: "Updated: January 3, 2025",
-      title: "Rehabilitation Therapy",
+      title: "Infrared Sauna",
       text1:
-        "Whether recovering from an injury or surgery, our rehabilitation therapy helps restore strength and mobility.",
+        "Step into our infrared sauna and let the soothing heat penetrate deep into your body, relieving tension, detoxifying your skin, and promoting overall wellness.",
       text2:
-        "We create personalized recovery plans to help you get back to your daily activities quickly and safely.",
+        "The gentle infrared warmth helps to relax muscles, boost circulation, and support natural detoxification, leaving you feeling rejuvenated and refreshed.",
       text3:
-        "Trust our experienced team to guide your recovery journey with care and precision.",
+        "Experience a tranquil escape as the infrared sauna's therapeutic heat works to improve your well-being and revitalize your energy."
     },
     {
-      img: "/assets/img/service/sports-injury.jpg",
-      icon: "/assets/img/service/shoes.svg",
-      text: "Get back in the game with our sports injury recovery treatments.",
+      img: "/assets/img/service/rehabilitation.jpg",
+      icon: "/assets/img/service/rehabilitation.svg",
+      text: "Rejuvenate your body and mind with our soothing spa recovery treatments.",
       date: "Updated: January 3, 2025",
-      title: "Sports Injury Recovery",
+      title: "Spa Recovery Therapy",
       text1:
-        "Our specialized sports injury recovery services combine chiropractic care and therapeutic exercises to expedite your healing process.",
+        "Our specialized recovery therapies combine relaxing techniques and therapeutic treatments to refresh your body and spirit.",
       text2:
-        "We address sports-related strains, sprains, and other injuries to help you regain your strength and performance.",
+        "We focus on easing tension, improving circulation, and promoting overall relaxation to restore your well-being.",
       text3:
-        "Maximize your recovery and return to the activities you love with confidence.",
+        "Let our expert team help you recharge and feel your best with tailored recovery sessions.",
     },
     {
-      img: "/assets/img/service/wellness.jpg",
-      icon: "/assets/img/service/heart.svg",
-      text: "Stay proactive with our wellness maintenance services.",
+      img: "/assets/img/service/rehabilitation.jpg",
+      icon: "/assets/img/service/rehabilitation.svg",
+      text: "Enhance your well-being with our holistic spa maintenance services.",
       date: "Updated: January 3, 2025",
-      title: "Wellness Maintenance",
+      title: "Wellness Spa Maintenance",
       text1:
-        "Our wellness maintenance programs focus on preventing issues and optimizing your health.",
+        "Our wellness spa maintenance programs are designed to keep you relaxed, rejuvenated, and balanced.",
       text2:
-        "Regular chiropractic care helps you stay active, pain-free, and ready to take on life’s challenges.",
+        "Regular spa sessions help reduce stress, improve skin health, and support your overall well-being.",
       text3:
-        "Maintain balance and well-being with our proactive, holistic approach to health care.",
-    },
+        "Stay refreshed and centered with our proactive approach to spa wellness, tailored just for you.",
+    },    
   ];   
 
   const [isOpen7, setIsOpen7] = useState(false);
