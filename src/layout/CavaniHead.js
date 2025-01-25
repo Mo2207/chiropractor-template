@@ -9,7 +9,7 @@ const CavaniHead = () => {
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>Evergreen Chiropractic Center | Home</title>
+      <title>Lumina Retreat Spa | Home</title>
     </Head>
   );
 };

@@ -15,7 +15,7 @@ const Service = () => {
   const services = [
     {
       img: "/assets/img/service/spine-adjustment.jpg",
-      icon: "/assets/img/service/spine.svg",
+      icon: "/assets/img/service/stone-massage.svg",
       text: "Realign and revitalize your spine with our expert adjustments.",
       date: "Updated: January 3, 2025",
       title: "Hot Stone Massage",
@@ -28,7 +28,7 @@ const Service = () => {
     },
     {
       img: "/assets/img/service/posture.jpg",
-      icon: "/assets/img/service/posture-corrector.svg",
+      icon: "/assets/img/service/body-scrubs.svg",
       text: "Improve your alignment and confidence with posture correction therapy.",
       date: "Updated: January 3, 2025",
       title: "Body Scrubs",
@@ -41,7 +41,7 @@ const Service = () => {
     },
     {
       img: "/assets/img/service/pain-management.jpg",
-      icon: "/assets/img/service/body-massage.svg",
+      icon: "/assets/img/service/oxygen-therapy.svg",
       text: "Alleviate chronic pain with our comprehensive pain management services.",
       date: "Updated: January 3, 2025",
       title: "Oxygen Therapy",
@@ -54,7 +54,7 @@ const Service = () => {
     },
     {
       img: "/assets/img/service/rehabilitation.jpg",
-      icon: "/assets/img/service/rehabilitation.svg",
+      icon: "/assets/img/service/infrared-sauna.svg",
       text: "Recover strength and function with our tailored rehabilitation therapies.",
       date: "Updated: January 3, 2025",
       title: "Infrared Sauna",
