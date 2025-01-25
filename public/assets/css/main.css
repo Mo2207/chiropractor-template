@@ -568,11 +568,11 @@ h1,
   h4,
   h5,
   h6 {
-  font-family: Old-Standard-TT, Poppins, sans-serif;
+  font-family: Inter, Poppins, sans-serif;
   font-weight: 700;
   line-height: 1.2;
   --tw-text-opacity: 1;
-  color: rgb(51 51 51 / var(--tw-text-opacity));
+  color: rgb(110 75 59 / var(--tw-text-opacity));
 }
 
 h1 {
@@ -4016,6 +4016,10 @@ h6 {
   font-family: Poppins, sans-serif;
 }
 
+.font-eb {
+  font-family: "EB Garamond", sans-serif;
+}
+
 .text-\[14px\] {
   font-size: 14px;
 }
@@ -4058,6 +4062,10 @@ h6 {
 
 .font-light {
   font-weight: 300;
+}
+
+.font-semimedium {
+  font-weight: 400;
 }
 
 .font-medium {

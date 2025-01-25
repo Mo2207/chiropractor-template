@@ -14,7 +14,7 @@
 .cavani_tm_header .menu ul li a:after {
   left: 0;
   height: 0;
-  background: #333;
+  background: #d8c7b1;
   content: "";
   position: absolute;
   width: 0;
@@ -26,11 +26,12 @@
 .cavani_tm_header .menu ul li.active a {
   left: 0;
   height: 0;
-  background: #333;
+  background: #d8c7b0;
   height: 100%;
   z-index: 100;
-  color: #fff;
+  color: #321d07;
   border-radius: 1rem;
+  border-color: #d8c7b0;
 }
 
 .cavani_tm_header .menu ul li a:hover:after,

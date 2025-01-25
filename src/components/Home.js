@@ -37,7 +37,7 @@ const Home = () => {
       <div className="cavani_tm_home relative w-full h-full flex items-center">
         <div className="content pl-[100px] relative">
           {/* <div className="hidden middle:block bg-block" /> */}
-          <h3 className="name text-[72px] font-bold uppercase mb-[30px]">
+          <h3 className="name text-[72px] font-eb font-semimedium uppercase mb-[30px]">
             Lumina Retreat Spa
           </h3>
           <span className="line inline-block w-[70px] h-[5px] bg-[#333] mb-[30px] relative" />
