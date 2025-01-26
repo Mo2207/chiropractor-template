@@ -196,7 +196,7 @@ const Portfolio = () => {
         <div className="section_inner">
           <div className="cavani_tm_portfolio w-full h-auto clear-both float-left mb-[70px]">
             <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
-              <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
+              <span className="inline-block relative font-eb text-[#333] uppercase font-bold tracking-[8px]">
                 Creative Portfolio
               </span>
             </div>
@@ -212,7 +212,7 @@ const Portfolio = () => {
                     All
                   </a> */}
                   <button
-                    className={`current text-[#333] font-poppins font-medium transition-all duration-300 ${category === null && 'underline'}`}
+                    className={`current font-medium transition-all duration-300 ${category === null && 'underline'}`}
                     onClick={() => setCategory(null)}
                   >
                     All
@@ -282,7 +282,7 @@ const Portfolio = () => {
                   <li key={`category-${i}`} className="inline-block">
                     <button
                       key={`category-${i}`}
-                      className={`text-[#333] font-poppins font-medium transition-all duration-300 ${category === item && 'underline'}`}
+                      className={`text-[#333] font-medium transition-all duration-300 ${category === item && 'underline'}`}
                       onClick={() => setCategory(item)}
                     >{item}</button>
                   </li>

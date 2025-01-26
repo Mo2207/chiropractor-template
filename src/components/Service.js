@@ -106,7 +106,7 @@ const Service = () => {
         <div className="section_inner">
           <div className="cavani_tm_service w-full h-auto clear-both float-left mb-[70px]">
             <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
-              <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
+              <span className="inline-block relative font-eb uppercase font-bold tracking-[8px]">
                 Services
               </span>
             </div>
@@ -216,9 +216,9 @@ const Service = () => {
                     )}
                   </div>
                   <div className="main_title">
-                    <h3>{modalContent.title}</h3>
+                    <h3 className="font-eb font-semimedium">{modalContent.title}</h3>
                   </div>
-                  <div className="descriptions w-full float-left">
+                  <div className="font-light descriptions w-full float-left">
                     <p className="mb-[15px]">{modalContent.text1}</p>
                     <p className="mb-[15px]">{modalContent.text2}</p>
                     <p>{modalContent.text3}</p>

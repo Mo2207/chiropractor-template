@@ -46,7 +46,7 @@ const About = () => {
         <div className="cavani_tm_about w-full h-auto clear-both float-left">
           <div className="biography w-full h-auto clear-both float-left mb-[87px]">
             <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
-              <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
+              <span className="inline-block relative font-eb text-[#333] uppercase font-bold tracking-[8px]">
                 About us
               </span>
             </div>
@@ -122,7 +122,7 @@ const About = () => {
             <div className="wrapper w-full h-auto clear-both float-left flex justify-between">
               <div className="service_list w-[40%]">
                 <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
-                  <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
+                  <span className="inline-block relative font-eb text-[#333] uppercase font-bold tracking-[8px]">
                     Services
                   </span>
                 </div>
@@ -154,7 +154,7 @@ const About = () => {
               </div>
               <div className="service_list w-[50%]">
                 <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
-                  <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
+                  <span className="inline-block relative font-eb text-[#333] uppercase font-bold tracking-[8px]">
                     Interests
                   </span>
                 </div>
@@ -190,7 +190,7 @@ const About = () => {
             <div className="wrapper w-full h-auto clear-both float-left flex justify-between">
               <div className="programming w-[40%]">
                 <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
-                  <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
+                  <span className="inline-block relative font-eb text-[#333] uppercase font-bold tracking-[8px]">
                     Special Skills
                   </span>
                 </div>
@@ -246,7 +246,7 @@ const About = () => {
             <div className="wrapper w-full h-auto clear-both float-left flex justify-between">
               <div className="education w-[40%]">
                 <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
-                  <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
+                  <span className="inline-block relative font-eb text-[#333] uppercase font-bold tracking-[8px]">
                     Education
                   </span>
                 </div>
@@ -310,7 +310,7 @@ const About = () => {
               </div>
               <div className="experience w-1/2">
                 <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
-                  <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">
+                  <span className="inline-block relative font-eb text-[#333] uppercase font-bold tracking-[8px]">
                     Experience
                   </span>
                 </div>

@@ -3,6 +3,7 @@ import { useContext, useEffect, useRef, useState } from "react";
 import { CavaniContext } from "../Context";
 import SectionContainer from "../layout/SectionContainer";
 import TypingAnimation from "./AnimationText";
+import urlBuilder from "@sanity/image-url";
 
 const Home = () => {
   const { navChange } = useContext(CavaniContext);
@@ -35,12 +36,19 @@ const Home = () => {
   return (
     <SectionContainer navName="home">
       <div className="cavani_tm_home relative w-full h-full flex items-center">
-        <div className="content pl-[100px] relative">
+        <div className="content pl-[100px] relative mb-[20px]">
           {/* <div className="hidden middle:block bg-block" /> */}
-          <h3 className="name text-[72px] font-eb font-semimedium uppercase mb-[30px]">
-            Lumina Retreat Spa
-          </h3>
-          <span className="line inline-block w-[70px] h-[5px] bg-[#333] mb-[30px] relative" />
+          <div className="relative inline-block mb-[20px]">
+            <h3 className="name text-[72px] font-eb font-semimedium uppercase">
+              Lumina Retreat Spa
+            </h3>
+            <img
+              className="absolute"
+              src="/assets/img/home/frontpage-decal.png"
+              alt="Decal"
+            />
+          </div>
+          {/* <span className="line inline-block w-[70px] h-[5px] bg-[#333] mb-[30px] relative" /> */}
           <TypingAnimation />
           <div className="cavani_tm_button transition_link relative">
             <a href="#contact" onClick={() => navChange("contact")}>
