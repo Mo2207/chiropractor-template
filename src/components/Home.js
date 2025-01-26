@@ -38,12 +38,20 @@ const Home = () => {
       <div className="cavani_tm_home relative w-full h-full flex items-center">
         <div className="content pl-[100px] relative mb-[20px]">
           {/* <div className="hidden middle:block bg-block" /> */}
-          <div className="relative inline-block mb-[20px]">
-            <h3 className="name text-[72px] font-eb font-semimedium uppercase">
+          <div className="relative inline-block mb-[30px]">
+            <h3 
+              className="name text-[72px] font-eb font-semimedium uppercase"
+              style={{
+                width: '98%',
+              }}
+            >
               Lumina Retreat Spa
             </h3>
             <img
-              className="absolute"
+              className="relative mb-[20px]"
+              style={{
+                marginTop: '-35px',
+              }}
               src="/assets/img/home/frontpage-decal.png"
               alt="Decal"
             />
