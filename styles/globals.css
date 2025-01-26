@@ -9,6 +9,7 @@
 
 .cavani_tm_header .menu ul li a {
   position: relative;
+  border-radius: 1rem;
 }
 
 .cavani_tm_header .menu ul li a:after {
@@ -22,7 +23,6 @@
   transition: all 0.6s ease 0.3s;
   z-index: -1;
   border-radius: 1rem;
-
 }
 
 .cavani_tm_header .menu ul li.active a {
