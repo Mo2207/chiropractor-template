@@ -142,7 +142,7 @@ const Header = () => {
           </Link>
           <Link
             onClick={() => navChange('home')}
-            className="text no-underline text-black uppercase font-poppins text-[25px] font-extrabold tracking-[2px] leading-[70px]"
+            className="text no-underline text-black uppercase text-[25px] font-extrabold tracking-[2px] leading-[70px]"
             href="/#home"
           >
             <span className="relative top-[2px]">OD-Studio</span>
@@ -159,7 +159,7 @@ const Header = () => {
               >
                 <a
                   onClick={() => navChange(nav.href)}
-                  className="text-[#333] font-poppins font-medium py-0 px-[30px] inline-block transition-all duration-300"
+                  className="text-[#333] font-light py-0 px-[30px] inline-block transition-all duration-300"
                   href={`/#${nav.href}`}
                 >
                   {nav.name}
