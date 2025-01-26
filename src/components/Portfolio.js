@@ -12,75 +12,75 @@ import { Detail, Soundcloud } from "./Popup";
 // hard-coded data for portfolio section
 const portfolioData = [
   {
-    title: "Spinal Adjustments",
-    category: "Spinal Adjustments",
-    image: "/assets/img/portfolio/spinal-adjustment.jpg",
+    title: "Hot Stone Massage",
+    category: "Hot Stone Massage",
+    image: "",
     content: [
-      "Experience relief and improved alignment with our expert spinal adjustment services.",
-      "Our chiropractors use precise techniques to correct misalignments, reduce pain, and restore function.",
-      "Feel the difference as we help you achieve better posture and overall spinal health."
+      "A soothing therapy where heated stones are placed on key points of the body, combined with massage techniques to relieve tension, improve circulation, and promote deep relaxation.",
+      "Experience the gentle power of heated stones as they work in harmony with expert massage techniques to ease tension and improve overall well-being.",
+      "Let the warmth of the stones and skilled hands rejuvenate your body, improve circulation, and promote a sense of calm and relaxation."
     ],
   },
   {
-    title: "Posture Correction",
-    category: "Posture Correction",
-    image: "/assets/img/portfolio/posture-correction.jpg",
+    title: "Body Scrubs",
+    category: "Body Scrubs",
+    image: "",
     content: [
-      "Achieve a confident and healthy posture with our posture correction treatments.",
-      "Our personalized plans include targeted adjustments, exercises, and education to improve your alignment.",
-      "Let us help you reduce strain, prevent future issues, and feel your best every day."
+      "Revitalize your skin with our rejuvenating body scrubs, designed to exfoliate, hydrate, and leave your skin feeling soft and smooth.",
+      "Our body scrubs gently remove dead skin cells, promoting healthy circulation and a radiant glow from head to toe.",
+      "Experience the ultimate skin renewal as our expertly crafted scrubs cleanse, nourish, and rejuvenate your body, leaving you refreshed and revitalized."
     ],
   },
   {
-    title: "Pain Management Therapy",
-    category: "Pain Management",
-    image: "/assets/img/portfolio/pain-management.jpg",
+    title: "Oxygen Therapy",
+    category: "Oxygen Therapy",
+    image: "",
     content: [
-      "Find relief from chronic pain with our comprehensive pain management services.",
-      "We address the root causes of discomfort, providing lasting solutions tailored to your needs.",
-      "Reclaim your comfort and mobility with our expert care and targeted treatments."
+      "Immerse yourself in the rejuvenating effects of oxygen therapy, designed to enhance your body's natural healing processes and promote overall wellness.",
+      "By delivering concentrated oxygen, this therapy helps improve circulation, boost energy levels, and support cellular regeneration for optimal health.",
+      "Experience the revitalizing benefits of oxygen therapy as it helps to reduce stress, enhance mental clarity, and restore your body's balance."
     ],
   },
   {
-    title: "Rehabilitation Therapy",
-    category: "Rehabilitation Therapy",
-    image: "/assets/img/portfolio/rehabilitation.jpg",
+    title: "Infrared Sauna",
+    category: "Infrared Sauna",
+    image: "",
     content: [
-      "Recover faster and stronger with our customized rehabilitation therapy services.",
-      "We focus on restoring mobility, strength, and function after injuries or surgeries.",
-      "Trust our team to guide you every step of the way toward a full recovery."
+      "Step into our infrared sauna and let the soothing heat penetrate deep into your body, relieving tension, detoxifying your skin, and promoting overall wellness.",
+      "The gentle infrared warmth helps to relax muscles, boost circulation, and support natural detoxification, leaving you feeling rejuvenated and refreshed.",
+      "Experience a tranquil escape as the infrared sauna's therapeutic heat works to improve your well-being and revitalize your energy."
     ],
   },
   {
-    title: "Sports Injury Recovery",
-    category: "Sports Injury Recovery",
-    image: "/assets/img/portfolio/sports-injury.jpg",
+    title: "Spa Recovery Therapy",
+    category: "Spa Recovery Therapy",
+    image: "",
     content: [
-      "Get back in the game with our specialized sports injury recovery treatments.",
-      "We combine chiropractic adjustments, therapy, and exercise plans to expedite healing.",
-      "Maximize your performance and minimize downtime with our personalized care."
+      "Our specialized recovery therapies combine relaxing techniques and therapeutic treatments to refresh your body and spirit.",
+      "We focus on easing tension, improving circulation, and promoting overall relaxation to restore your well-being.",
+      "Let our expert team help you recharge and feel your best with tailored recovery sessions."
     ],
   },
   {
-    title: "Wellness Maintenance",
-    category: "Wellness Maintenance",
-    image: "/assets/img/portfolio/wellness.jpg",
+    title: "Wellness Spa Maintenance",
+    category: "Wellness Spa Maintenance",
+    image: "",
     content: [
-      "Maintain your health and well-being with our ongoing wellness maintenance services.",
-      "Regular chiropractic care helps prevent issues, improve mobility, and enhance your quality of life.",
-      "Stay proactive about your health and enjoy the benefits of a balanced body."
+      "Our wellness spa maintenance programs are designed to keep you relaxed, rejuvenated, and balanced.",
+      "Regular spa sessions help reduce stress, improve skin health, and support your overall well-being.",
+      "Stay refreshed and centered with our proactive approach to spa wellness, tailored just for you."
     ],
   },
 ];
 
 const Portfolio = () => {
   const categories = [
-    "Spinal Adjustments",
-    "Posture Correction",
-    "Pain Management",
-    "Rehabilitation Therapy",
-    "Sports Injury Recovery",
-    "Wellness Maintenance"
+    "Hot Stone Massage",
+    "Body Scrubs",
+    "Oxygen Therapy",
+    "Infrared Sauna",
+    "Spa Recovery Therapy",
+    "Wellness Spa Maintenance"
   ];
 
   const ModalVideo = dynamic(
@@ -380,11 +380,11 @@ const Portfolio = () => {
                   )}
                   <div className="details">
                     <div className="title">
-                      <h3>{modalContent.title}</h3>
+                      <h3 className="font-eb font-semimedium">{modalContent.title}</h3>
                     </div>
                     <div />
                   </div>
-                  <div className="text w-full float-left">
+                  <div className="text w-full font-light float-left">
                     {/* <p className="mb-[15px]">{modalContent.text1}</p>
                     <p className="mb-[15px]">{modalContent.text2}</p>
                     <p>{modalContent.text3}</p> */}
