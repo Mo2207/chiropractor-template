@@ -109,21 +109,21 @@ const News = () => {
                       key={i}
                     >
                       <div className="list_inner w-full clear-both h-auto flex items-center">
-                        <span className="number w-[50px] min-w-[50px] h-[50px] text-center leading-[50px] inline-block rounded-full bg-[#b9b8c3] text-[#333] text-[16px] font-semibold font-poppins">
+                        <span className="number w-[50px] min-w-[50px] h-[50px] text-center leading-[50px] inline-block rounded-full bg-[#b9b8c3] text-[#6e4a3b] text-[16px] font-semibold">
                           {`${i <= 9 ? 0 : ""}${i + 1}`}
                         </span>
                         <div className="details relative pl-[30px] ml-[29px]">
                           <div className="extra_metas">
                             <ul className="flex items-center flex-wrap mb-[2px]">
                               <li className="relative mr-[10px]">
-                                <span className="text-[15px] text-[#777]">
+                                <span className="text-[15px] text-[#A47764]">
                                   {item.date}
                                 </span>
                               </li>
                               <li className="relative mr-[10px]">
-                                <span className="text-[15px] text-[#777] pl-[10px]">
+                                <span className="text-[15px] text-[#A47764] pl-[10px]">
                                   <a
-                                    className="text-[#777] transition-all duration-300 hover:text-[#000]"
+                                    className="text-[#A47764] transition-all duration-300 hover:text-[#000]"
                                     href="#"
                                     onClick={() => toggleModalFour(item)}
                                   >
@@ -134,7 +134,7 @@ const News = () => {
                             </ul>
                           </div>
                           <div className="post_title">
-                            <h3 className="m-0 p-0 leading-[1] font-semibold">
+                            <h3 className="m-0 p-0 leading-[1]   font-semibold">
                               <a href="#" onClick={() => toggleModalFour(item)}>
                                 {item.title}
                               </a>
