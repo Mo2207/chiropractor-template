@@ -14,7 +14,7 @@ const portfolioData = [
   {
     title: "Hot Stone Massage",
     category: "Hot Stone Massage",
-    image: "",
+    image: "/assets/img/portfolio/hot-stone-massage.jpg",
     content: [
       "A soothing therapy where heated stones are placed on key points of the body, combined with massage techniques to relieve tension, improve circulation, and promote deep relaxation.",
       "Experience the gentle power of heated stones as they work in harmony with expert massage techniques to ease tension and improve overall well-being.",
@@ -24,7 +24,7 @@ const portfolioData = [
   {
     title: "Body Scrubs",
     category: "Body Scrubs",
-    image: "",
+    image: "/assets/img/portfolio/body-scrubs.jpg",
     content: [
       "Revitalize your skin with our rejuvenating body scrubs, designed to exfoliate, hydrate, and leave your skin feeling soft and smooth.",
       "Our body scrubs gently remove dead skin cells, promoting healthy circulation and a radiant glow from head to toe.",
@@ -34,7 +34,7 @@ const portfolioData = [
   {
     title: "Oxygen Therapy",
     category: "Oxygen Therapy",
-    image: "",
+    image: "/assets/img/portfolio/oxygen-therapy.webp",
     content: [
       "Immerse yourself in the rejuvenating effects of oxygen therapy, designed to enhance your body's natural healing processes and promote overall wellness.",
       "By delivering concentrated oxygen, this therapy helps improve circulation, boost energy levels, and support cellular regeneration for optimal health.",
@@ -44,7 +44,7 @@ const portfolioData = [
   {
     title: "Infrared Sauna",
     category: "Infrared Sauna",
-    image: "",
+    image: "/assets/img/portfolio/infrared-sauna.webp",
     content: [
       "Step into our infrared sauna and let the soothing heat penetrate deep into your body, relieving tension, detoxifying your skin, and promoting overall wellness.",
       "The gentle infrared warmth helps to relax muscles, boost circulation, and support natural detoxification, leaving you feeling rejuvenated and refreshed.",
@@ -54,7 +54,7 @@ const portfolioData = [
   {
     title: "Spa Recovery Therapy",
     category: "Spa Recovery Therapy",
-    image: "",
+    image: "/assets/img/portfolio/spa-recovery-therapy.jpg",
     content: [
       "Our specialized recovery therapies combine relaxing techniques and therapeutic treatments to refresh your body and spirit.",
       "We focus on easing tension, improving circulation, and promoting overall relaxation to restore your well-being.",
@@ -64,7 +64,7 @@ const portfolioData = [
   {
     title: "Wellness Spa Maintenance",
     category: "Wellness Spa Maintenance",
-    image: "",
+    image: "/assets/img/portfolio/wellness-spa-therapy.jpg",
     content: [
       "Our wellness spa maintenance programs are designed to keep you relaxed, rejuvenated, and balanced.",
       "Regular spa sessions help reduce stress, improve skin health, and support your overall well-being.",
