@@ -14,7 +14,7 @@ const Service = () => {
 
   const services = [
     {
-      img: "/assets/img/service/spine-adjustment.jpg",
+      img: "/assets/img/service/hot-stone-service.jpg",
       icon: "/assets/img/service/stone-massage.svg",
       text: "Realign and revitalize your spine with our expert adjustments.",
       date: "Updated: January 3, 2025",
@@ -27,7 +27,7 @@ const Service = () => {
         "Let the warmth of the stones and skilled hands rejuvenate your body, improve circulation, and promote a sense of calm and relaxation."
     },
     {
-      img: "/assets/img/service/posture.jpg",
+      img: "/assets/img/service/body-scrub-service.jpg",
       icon: "/assets/img/service/body-scrubs.svg",
       text: "Improve your alignment and confidence with posture correction therapy.",
       date: "Updated: January 3, 2025",
@@ -40,7 +40,7 @@ const Service = () => {
         "Experience the ultimate skin renewal as our expertly crafted scrubs cleanse, nourish, and rejuvenate your body, leaving you refreshed and revitalized."
     },
     {
-      img: "/assets/img/service/pain-management.jpg",
+      img: "/assets/img/service/oxygen-therapy-service.jpg",
       icon: "/assets/img/service/oxygen-therapy.svg",
       text: "Alleviate chronic pain with our comprehensive pain management services.",
       date: "Updated: January 3, 2025",
@@ -53,7 +53,7 @@ const Service = () => {
       "Experience the revitalizing benefits of oxygen therapy as it helps to reduce stress, enhance mental clarity, and restore your body's balance."
     },
     {
-      img: "/assets/img/service/rehabilitation.jpg",
+      img: "/assets/img/service/infrared-sauna-service.jpg",
       icon: "/assets/img/service/infrared-sauna.svg",
       text: "Recover strength and function with our tailored rehabilitation therapies.",
       date: "Updated: January 3, 2025",
@@ -66,7 +66,7 @@ const Service = () => {
         "Experience a tranquil escape as the infrared sauna's therapeutic heat works to improve your well-being and revitalize your energy."
     },
     {
-      img: "/assets/img/service/rehabilitation.jpg",
+      img: "/assets/img/service/spa-recovery-service.jpeg",
       icon: "/assets/img/service/rehabilitation.svg",
       text: "Rejuvenate your body and mind with our soothing spa recovery treatments.",
       date: "Updated: January 3, 2025",
@@ -79,7 +79,7 @@ const Service = () => {
         "Let our expert team help you recharge and feel your best with tailored recovery sessions.",
     },
     {
-      img: "/assets/img/service/rehabilitation.jpg",
+      img: "/assets/img/service/wellness-service.jpg",
       icon: "/assets/img/service/rehabilitation.svg",
       text: "Enhance your well-being with our holistic spa maintenance services.",
       date: "Updated: January 3, 2025",
