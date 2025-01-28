@@ -67,7 +67,7 @@ const Service = () => {
     },
     {
       img: "/assets/img/service/spa-recovery-service.jpeg",
-      icon: "/assets/img/service/rehabilitation.svg",
+      icon: "/assets/img/service/flower-tulip.svg",
       text: "Rejuvenate your body and mind with our soothing spa recovery treatments.",
       date: "Updated: January 3, 2025",
       title: "Spa Recovery Therapy",
@@ -80,7 +80,7 @@ const Service = () => {
     },
     {
       img: "/assets/img/service/wellness-service.jpg",
-      icon: "/assets/img/service/rehabilitation.svg",
+      icon: "/assets/img/service/spa-stone.svg",
       text: "Enhance your well-being with our holistic spa maintenance services.",
       date: "Updated: January 3, 2025",
       title: "Wellness Spa Maintenance",
