@@ -11,12 +11,12 @@ const About = () => {
   ];
 
   const progressBarData = [
-    { bgcolor: "#8E44AD", completed: 95, title: "Relaxation Massages" },
-    { bgcolor: "#8E44AD", completed: 90, title: "Hydrating Facials" },
-    { bgcolor: "#8E44AD", completed: 85, title: "Body Scrubs & Wraps" },
-    { bgcolor: "#8E44AD", completed: 95, title: "Aromatherapy Sessions" },
-    { bgcolor: "#8E44AD", completed: 80, title: "Hot Stone Therapy" },
-    { bgcolor: "#8E44AD", completed: 85, title: "Stress Relief Treatments" },
+    { bgcolor: "#A47764", completed: 95, title: "Relaxation Massages" },
+    { bgcolor: "#A47764", completed: 90, title: "Hydrating Facials" },
+    { bgcolor: "#A47764", completed: 85, title: "Body Scrubs & Wraps" },
+    { bgcolor: "#A47764", completed: 95, title: "Aromatherapy Sessions" },
+    { bgcolor: "#A47764", completed: 80, title: "Hot Stone Therapy" },
+    { bgcolor: "#A47764", completed: 85, title: "Stress Relief Treatments" },
   ];
 
   const services = [
@@ -256,7 +256,7 @@ const About = () => {
                       <li className="w-full float-left relative pl-[20px] pb-[45px]">
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
-                            <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
+                            <span className="inline-block py-[5px] px-[25px] bg-F7F4EF rounded-[50px] text-[14px] whitespace-nowrap">
                               2013
                             </span>
                           </div>
@@ -273,7 +273,7 @@ const About = () => {
                       <li className="w-full float-left relative pl-[20px] pb-[45px]">
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
-                            <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
+                            <span className="inline-block py-[5px] px-[25px] bg-F7F4EF rounded-[50px] text-[14px] whitespace-nowrap">
                               2011
                             </span>
                           </div>
@@ -290,7 +290,7 @@ const About = () => {
                       <li className="w-full float-left relative pl-[20px]">
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
-                            <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
+                            <span className="inline-block py-[5px] px-[25px] bg-F7F4EF rounded-[50px] text-[14px] whitespace-nowrap">
                               2009
                             </span>
                           </div>
@@ -320,7 +320,7 @@ const About = () => {
                       <li className="w-full float-left relative pl-[20px] pb-[45px]">
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
-                            <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
+                            <span className="inline-block py-[5px] px-[25px] bg-F7F4EF rounded-[50px] text-[14px] whitespace-nowrap">
                               2020 - present
                             </span>
                           </div>
@@ -337,7 +337,7 @@ const About = () => {
                       <li className="w-full float-left relative pl-[20px] pb-[45px]">
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
-                            <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
+                            <span className="inline-block py-[5px] px-[25px] bg-F7F4EF rounded-[50px] text-[14px] whitespace-nowrap">
                               2015 - 2017
                             </span>
                           </div>
@@ -354,7 +354,7 @@ const About = () => {
                       <li className="w-full float-left relative pl-[20px]">
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
-                            <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
+                            <span className="inline-block py-[5px] px-[25px] bg-F7F4EF rounded-[50px] text-[14px] whitespace-nowrap">
                               2014 - 2015
                             </span>
                           </div>
