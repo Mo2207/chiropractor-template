@@ -3681,6 +3681,11 @@ h6 {
   background-color: rgb(185 184 195 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#d8c7b0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(216 199 176 / var(--tw-bg-opacity));
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));

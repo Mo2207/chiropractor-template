@@ -109,7 +109,7 @@ const News = () => {
                       key={i}
                     >
                       <div className="list_inner w-full clear-both h-auto flex items-center">
-                        <span className="number w-[50px] min-w-[50px] h-[50px] text-center leading-[50px] inline-block rounded-full bg-[#b9b8c3] text-[#6e4a3b] text-[16px] font-semibold">
+                        <span className="number w-[50px] min-w-[50px] h-[50px] text-center leading-[50px] inline-block rounded-full bg-[#d8c7b0] text-[#6e4a3b] text-[16px] font-semibold">
                           {`${i <= 9 ? 0 : ""}${i + 1}`}
                         </span>
                         <div className="details relative pl-[30px] ml-[29px]">
