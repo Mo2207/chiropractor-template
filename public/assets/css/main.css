@@ -1444,6 +1444,10 @@ h6 {
   border-radius: 2rem;
 }
 
+.cavani_tm_portfolio .portfolio_filter ul li {
+  margin-right: 30px;
+}
+
 /*---------------------------------------------------*/
 
 /*	CAVANI MEDIA QUERIES (FOR SMALL DEVICES)
