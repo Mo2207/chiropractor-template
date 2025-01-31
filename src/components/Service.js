@@ -201,30 +201,37 @@ const Service = () => {
                   <i className="icon-cancel" />
                 </a>
               </div>
-              <div className="description_wrap">
-                <div className="service_popup_informations w-full h-auto clear-both float-left">
-                  <div className="image">
-                    <img src="assets/img/thumbs/4-2.jpg" alt={true.toString()} />
-                    {modalContent?.img && (
-                      <div
-                        className="main"
-                        // data-img-url={urlFor(modalContent?.image)?.url()}
-                        style={{
-                          backgroundImage: `url(${modalContent.img})`,
-                        }} // hard-coded background image
-                      />
-                    )}
+
+              <div className="description_wrap rounded-xl">
+                <div className="news_popup_informations w-full h-auto clear-both float-left">
+                  {modalContent?.img && (
+                    <div className="image" style={{
+                      backgroundImage: `url(${modalContent.img})`,
+                      height: '350px',
+                      backgroundSize: 'cover',
+                      backgroundRepeat: 'no-repeat',
+                      backgroundPosition: 'center',
+                      borderRadius: '20px'
+                    }} // hard-coded background image 
+                      alt={modalContent.title}>
+                    </div>
+                  )}
+                  <div className="details">
+                    <div className="title">
+                      <h3 className="font-eb font-semimedium">{modalContent.title}</h3>
+                    </div>
+                    <div />
                   </div>
-                  <div className="main_title">
-                    <h3 className="font-eb font-semimedium">{modalContent.title}</h3>
-                  </div>
-                  <div className="font-light descriptions w-full float-left">
-                    <p className="mb-[15px]">{modalContent.text1}</p>
+                  <div className="text w-full font-light float-left">
+                    {/* <p className="mb-[15px]">{modalContent.text1}</p>
                     <p className="mb-[15px]">{modalContent.text2}</p>
-                    <p>{modalContent.text3}</p>
+                    <p>{modalContent.text3}</p> */}
                     {/* <PortableText
                       value={modalContent?.content}
                     /> */}
+                    {modalContent.text1}
+                    {modalContent.text2}
+                    {modalContent.text3}
                   </div>
                 </div>
               </div>
